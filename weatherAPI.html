@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="./weatherAPI.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+ <<div class="container" id="container">
+   <div class="input">
+<p> Weather Forecast</p>
+<input type="text" id="inputValue" class="inputValue" placeholder="Enter Location"></input>
+ <button class="button" id="button">Search</button>
+    </div>
+ <div class="displayWeather" id="displayWeather">
+ <h1 class="temp" id="temp">---°C</h1>
+ <p class="desc" id="desc">---</p>
+ </div>
+ </div>
+  </body>
+  <script src="weatherAPI.js"></script>
+</html>
